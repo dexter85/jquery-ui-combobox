@@ -4,12 +4,14 @@ jquery-ui-combobox
 Fast Combobox for Jquery ui
 
 How to usage:
+
 1) Include jquery, jquery-ui, jquery-ui-combobox;
-2) bind combobox in your select, example:
-<code>
 
+2) bind combobox in the select target, example:
 
-  <script type="text/javascript">
+<pre>
+
+  &lt;script type="text/javascript">
   $(document).ready(function() {
     $("#foo").combobox(
 		{
@@ -25,11 +27,11 @@ How to usage:
   </script>
 
 
-  <select id="foo">
+  &lt;select id="foo">
     ......
-  </select>
+  &lt;/select>
 
-</code>
+</pre>
 3) if you need change select value 
 <code>
   $("#foo").combobox("value", myvalue);
